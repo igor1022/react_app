@@ -39,3 +39,6 @@
 body {
   height: 2000px;
 }
+.parent {
+  white-space: pre;
+}
