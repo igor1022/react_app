@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import { Carousel } from "react-bootstrap";
-import forestImg from '../assets/forest.jpg';
-import dforestImg from '../assets/dforest.jpg';
+import rodinaImg from '../assets/rodina.jpg';
 
 export default class About extends Component {
     render () {
@@ -10,36 +9,14 @@ export default class About extends Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={ forestImg }
-                        alt="Forest"
+                        src={ rodinaImg }
+                        alt="Rodina"
                     />
                     <Carousel.Caption>
-                        <h3>Forest image</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                        <h3>Бийся на світлій стороні</h3>
+                        <p>Перший Український Міжнародний Фонд</p>
                     </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={ dforestImg }
-                        alt="Forest"
-                    />
-                    <Carousel.Caption>
-                        <h3>Dark Forest image</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src={ forestImg }
-                        alt="Forest"
-                    />
-                    <Carousel.Caption>
-                        <h3>Forest image</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-                    </Carousel.Caption>
-                </Carousel.Item>    
+                </Carousel.Item>   
             </Carousel>
             
         )
